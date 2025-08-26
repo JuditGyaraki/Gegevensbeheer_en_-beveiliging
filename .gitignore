@@ -1,0 +1,5 @@
+*.sln
+obj/
+bin/
+.vs/
+*.sln
