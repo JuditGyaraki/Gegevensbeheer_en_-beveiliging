@@ -6,6 +6,7 @@ namespace RefactoringOppervlakteBerekenen
     {
         static void Main(string[] args)
         {
+            //test
             string keuze = "";
             while (keuze != "q")
             {
