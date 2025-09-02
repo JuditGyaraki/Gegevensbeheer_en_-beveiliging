@@ -1,0 +1,17 @@
+﻿<Page x:Class="Eindopdracht.BestellingVerwijderen"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Eindopdracht"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="BestellingVerwijderen">
+
+    <StackPanel>
+        <TextBlock  Height="30" Width="80" >Tafelnummer: </TextBlock>
+        <TextBox HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="30" Width="40" x:Name="tbx_tafelnrVerwijderen" TextChanged="Tafelnummer_TextChanged"></TextBox>
+        <ListBox Foreground="Brown" Background="BlanchedAlmond" x:Name="lb_BestellingVerwijderen" MouseDoubleClick="bestellingVerwijderen_MouseDoubleClick"></ListBox>
+        <TextBlock>Dubbelclick per item om te verwijderen.</TextBlock>
+    </StackPanel>
+</Page>
